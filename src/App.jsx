@@ -1,12 +1,12 @@
 import './App.css'
-import Navbar from './Card Component/Navbar'
+import Navbar from './CardComponent/Navbar'
 // import About from './COOmponents/About'
 // import Header from './COOmponents/Header'
 //import './styleee.css'
 import './styleeeee.css'
-import Card from './Card Component/Card'
-import data from './Card Component/CardData';
-import Footer from './Card Component/Footer';
+import Card from './CardComponent/Card'
+import data from './CardComponent/CardData';
+import Footer from './CardComponent/Footer';
 
 
 
@@ -35,13 +35,7 @@ function App() {
       
        
     </div>
-  //   <div className='border-box'>
-  //     <div className='container'>
-  //        <Header/>
-  //        <About/>
-  //   </div>
-   
-  //  </div>
+
  
   )
 }
