@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+ 
+a{
+    color:  grey;
+    font-size: 10px;
+    margin-left: 20px;
+}
+/* nav */
+
+nav{
+    height: 70px;
+    background-color: rgb(250, 61, 61);
+    display: flex;
+    justify-content: center;
+   align-items: center;
+}
+.logo{
+    width: 50px;
+    height: 50px;
+}
+.nav_title{
+    color: #fff ;
+    font-size: 20px;
+    margin-left: 8px;
+}
+
+/* Card */
+
+.card{
+    width: 450px;
+    display: flex;
+    margin: 20px auto 10px auto; 
+}
+.card_image{
+    height: 166px;
+    width: 120px;
+    border-radius: 5px;
+}
+.card_top_inline{
+    display: flex;
+    
+}
+.card_top_inline > h6{
+    margin-left: 10px;
+    text-transform: uppercase;
+    font-weight: lighter;
+    color: rgb(105, 105, 105);
+
+}
+.card_right{
+    margin-left: 30px;
+}
+.card_placeholder{
+    height: 15px;
+}
+.card_heading{
+    margin: 20px 0px 20px 0px;
+}
+.card_date{
+    font-size: 11px;
+    font-weight: bold;
+    margin: 0 0 10px 0;
+}
+.card_descr{
+    font-size: 11px;
+}
+.card_list{
+    display: flex;
+    flex-direction: column;
+}
+
+/* footer */
+
+footer{
+    background-color: grey;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 5px;
+}
+footer >p> span{
+    font-size: 30px;
+}
+.footer_links{
+   margin: 5px 0px 0px 2px;;
+}
+.footer_links >a{
+    margin-left: 3px;;
+    font-size: 12px;
+    color: white;
+    text-transform: lowercase;
+    font-weight: 100;
+}
