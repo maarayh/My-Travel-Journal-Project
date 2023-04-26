@@ -1,4 +1,3 @@
-import './App.css'
 import Navbar from './CardComponent/Navbar'
 // import About from './COOmponents/About'
 // import Header from './COOmponents/Header'
